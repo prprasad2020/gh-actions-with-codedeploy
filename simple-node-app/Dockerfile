@@ -2,9 +2,9 @@ FROM node:20.6.1
 
 WORKDIR /nodejs
 
-COPY ./src .
+COPY ./simple-node-app/src .
 
-COPY package.json package-lock.json ./
+COPY ./simple-node-app/package.json ./simple-node-app/package-lock.json ./
 
 RUN npm ci
 
