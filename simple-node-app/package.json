@@ -1,0 +1,21 @@
+{
+  "name": "services-node",
+  "version": "1.0.0",
+  "description": "simple node app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7",
+    "uuid": "^11.0.3"
+  },
+  "nodemonConfig": {
+    "restartable": "rs",
+    "delay": 2500
+  }
+}
