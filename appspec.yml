@@ -7,4 +7,4 @@ resources:
         loadBalancerInfo:
           containerName: "nodejs-app"
           containerPort: 3000
-        platformVersion: "LATEST"
+        platformVersion: "TESTTAG"
