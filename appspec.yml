@@ -3,7 +3,8 @@ resources:
   - targetService:
       type: AWS::ECS::Service
       properties:
-        taskDefinition: "arn:aws:ecs:eu-central-1:951745600887:task-definition/simple-task:2"
+        taskDefinition: "arn:aws:ecs:eu-central-1:951745600887:task-definition/simple-task"
         loadBalancerInfo:
           containerName: "nodejs-app"
           containerPort: 3000
+        platformVersion: "LATEST"
