@@ -14,3 +14,10 @@ jspm_packages/
 .env.test.local
 .env.production.local
 .env.local
+
+# .terraform directories
+.terraform/
+terraform.tfstate*
+
+# ignore ssh keys (private)
+*.pem
