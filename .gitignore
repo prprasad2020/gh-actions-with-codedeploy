@@ -21,3 +21,5 @@ terraform.tfstate*
 
 # ignore ssh keys (private)
 *.pem
+
+.DS_Store
